@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+*{
+    font-family: "Poppins", cursive;
+}
+
+.input-bx input{
+    color: white;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.login{
+    padding: 5rem;
+}
+.remember-forget{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.input-bx{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.1px solid white;
+    border-radius: 50rem;
+    padding: 10px 25px;
+}
+.container{
+    display: grid;
+    gap: 2rem;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 0.1px solid rgb(131, 131, 131);
+    border-radius: 7px;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    cursor: pointer;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50rem;
+    padding: 10px 25px;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.Register{
+    font-weight: 600;
+}
